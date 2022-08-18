@@ -1,0 +1,87 @@
+{
+  "__schema": "hmd_lang_structure.tabular_structure",
+  "name": "telemetry",
+  "identifier": "tab_struct-telemetry",
+  "columns": [
+    {
+      "identifier": "tab_col-timestamp",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "timestamp",
+        "datatype": "timestamp",
+        "identifier": "tab_col_def-timestamp"
+      }
+    },
+    {
+      "identifier": "tab_col-type",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "type",
+        "datatype": "string",
+        "identifier": "tab_col_def-type"
+      }
+    },
+    {
+      "identifier": "tab_col-position.x",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "position.x",
+        "datatype": "int",
+        "identifier": "tab_col_def-position.x"
+      }
+    },
+    {
+      "identifier": "tab_col-position.y",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "position.y",
+        "datatype": "int",
+        "identifier": "tab_col_def-position.y"
+      }
+    },
+    {
+      "identifier": "tab_col-position.z",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "position.z",
+        "datatype": "int",
+        "identifier": "tab_col_def-position.z"
+      }
+    },
+    {
+      "identifier": "tab_col-rotation.pitch",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "rotation.pitch",
+        "datatype": "float",
+        "identifier": "tab_col_def-rotation.pitch"
+      }
+    },
+    {
+      "identifier": "tab_col-rotation.roll",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "rotation.roll",
+        "datatype": "float",
+        "identifier": "tab_col_def-rotation.roll"
+      }
+    },
+    {
+      "identifier": "tab_col-rotation.yaw",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "rotation.yaw",
+        "datatype": "float",
+        "identifier": "tab_col_def-rotation.yaw"
+      }
+    }
+  ]
+}

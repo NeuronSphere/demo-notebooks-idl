@@ -1,0 +1,30 @@
+structures:
+  base:
+    columns:
+      timestamp: timestamp
+      type: string
+  position:
+    columns:
+      x: int
+      y: int
+      z: int
+  rotation:
+    columns:
+      pitch: float
+      roll: float
+      yaw: float
+  event_detail:
+    columns:
+      code: int
+      message: string
+types:
+  telemetry:
+    extends: base
+    columns:
+      position: structure:position
+      rotation: structure:rotation
+  event:
+    extends: base
+    columns:
+      detail: structure:event_detail
+      a: b

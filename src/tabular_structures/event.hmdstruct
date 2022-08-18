@@ -1,0 +1,57 @@
+{
+  "__schema": "hmd_lang_structure.tabular_structure",
+  "name": "event",
+  "identifier": "tab_struct-event",
+  "columns": [
+    {
+      "identifier": "tab_col-timestamp",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "timestamp",
+        "datatype": "timestamp",
+        "identifier": "tab_col_def-timestamp"
+      }
+    },
+    {
+      "identifier": "tab_col-type",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "type",
+        "datatype": "string",
+        "identifier": "tab_col_def-type"
+      }
+    },
+    {
+      "identifier": "tab_col-event_detail.code",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "event_detail.code",
+        "datatype": "int",
+        "identifier": "tab_col_def-event_detail.code"
+      }
+    },
+    {
+      "identifier": "tab_col-event_detail.message",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "event_detail.message",
+        "datatype": "string",
+        "identifier": "tab_col_def-event_detail.message"
+      }
+    },
+    {
+      "identifier": "tab_col-a",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "a",
+        "datatype": "b",
+        "identifier": "tab_col_def-a"
+      }
+    }
+  ]
+}
