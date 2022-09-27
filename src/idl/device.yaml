@@ -27,4 +27,3 @@ types:
     extends: base
     columns:
       detail: structure:event_detail
-      a: b

@@ -42,16 +42,6 @@
         "datatype": "string",
         "identifier": "tab_col_def-event_detail.message"
       }
-    },
-    {
-      "identifier": "tab_col-a",
-      "order": 0,
-      "definition": {
-        "__schema": "hmd_lang_structure.tabular_column",
-        "name": "a",
-        "datatype": "b",
-        "identifier": "tab_col_def-a"
-      }
     }
   ]
 }
