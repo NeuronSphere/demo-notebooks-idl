@@ -1,8 +1,10 @@
 structures:
   base:
     columns:
-      timestamp: timestamp
       type: string
+      timestamp: timestamp
+      serial_number: string
+      case: string
   position:
     columns:
       x: int

@@ -4,26 +4,6 @@
   "identifier": "tab_struct-event",
   "columns": [
     {
-      "identifier": "tab_col-timestamp",
-      "order": 0,
-      "definition": {
-        "__schema": "hmd_lang_structure.tabular_column",
-        "name": "timestamp",
-        "datatype": "timestamp",
-        "identifier": "tab_col_def-timestamp"
-      }
-    },
-    {
-      "identifier": "tab_col-type",
-      "order": 0,
-      "definition": {
-        "__schema": "hmd_lang_structure.tabular_column",
-        "name": "type",
-        "datatype": "string",
-        "identifier": "tab_col_def-type"
-      }
-    },
-    {
       "identifier": "tab_col-event_detail.code",
       "order": 0,
       "definition": {
@@ -41,6 +21,46 @@
         "name": "event_detail.message",
         "datatype": "string",
         "identifier": "tab_col_def-event_detail.message"
+      }
+    },
+    {
+      "identifier": "tab_col-type",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "type",
+        "datatype": "string",
+        "identifier": "tab_col_def-type"
+      }
+    },
+    {
+      "identifier": "tab_col-timestamp",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "timestamp",
+        "datatype": "timestamp",
+        "identifier": "tab_col_def-timestamp"
+      }
+    },
+    {
+      "identifier": "tab_col-serial_number",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "serial_number",
+        "datatype": "string",
+        "identifier": "tab_col_def-serial_number"
+      }
+    },
+    {
+      "identifier": "tab_col-case",
+      "order": 0,
+      "definition": {
+        "__schema": "hmd_lang_structure.tabular_column",
+        "name": "case",
+        "datatype": "string",
+        "identifier": "tab_col_def-case"
       }
     }
   ]
