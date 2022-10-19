@@ -1,6 +1,7 @@
 {
   "__schema": "hmd_lang_structure.manifestation",
   "header_overrides": {
+    "tf_prefix": "d",
     "schema_suffix": "ux",
     "partition_columns": {
       "iso_date": "date",

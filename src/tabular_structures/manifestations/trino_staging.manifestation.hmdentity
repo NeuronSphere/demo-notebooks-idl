@@ -1,6 +1,7 @@
 {
   "__schema": "hmd_lang_structure.manifestation",
   "header_overrides": {
+    "tf_prefix": "b",
     "schema_suffix": "staging",
     "partition_columns": {
       "iso_date": "date",
