@@ -1,0 +1,11 @@
+{
+  "__schema": "hmd_lang_structure.manifestation",
+  "header_overrides": {
+    "schema_suffix": "ux",
+    "partition_columns": {
+      "iso_date": "date",
+      "serial_num": "string",
+      "dev_run": "string"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "__schema": "hmd_lang_structure.manifestation",
+  "header_overrides": {
+    "schema_suffix": "source"
+  }
+}
