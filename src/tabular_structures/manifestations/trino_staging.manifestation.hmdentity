@@ -3,6 +3,7 @@
   "header_overrides": {
     "tf_prefix": "b",
     "schema_suffix": "staging",
+    "depends_on": "source",
     "partition_columns": {
       "iso_date": "date",
       "serial_num": "string",

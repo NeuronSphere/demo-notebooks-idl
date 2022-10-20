@@ -3,6 +3,7 @@
   "header_overrides": {
     "tf_prefix": "d",
     "schema_suffix": "ux",
+    "depends_on": "final",
     "partition_columns": {
       "iso_date": "date",
       "serial_num": "string",
