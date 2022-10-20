@@ -2,7 +2,7 @@
   "__schema": "hmd_lang_structure.manifestation",
   "header_overrides": {
     "partition_columns": {
-      "iso_date": "string",
+      "iso_date": "date",
       "serial_num": "string",
       "dev_run": "string"
     }
