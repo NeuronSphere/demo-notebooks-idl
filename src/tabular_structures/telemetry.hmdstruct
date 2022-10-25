@@ -1,6 +1,7 @@
 {
   "__schema": "hmd_lang_structure.tabular_structure",
   "name": "telemetry",
+  "version": "0.1.1",
   "identifier": "tab_struct-telemetry",
   "columns": [
     {
